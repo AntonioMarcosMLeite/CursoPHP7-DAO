@@ -59,12 +59,24 @@ echo $aluno;*/
 
 //************************************************************************************
 
+//Alterar os dados do usuário.
+
+//$usuario = new Usuario();
+//$usuario->loadbyId(12);
+//$usuario->update("professor", "123456");
+//echo $usuario;
+
+//************************************************************************************
+
+//Deletar usuarios da tabela
+
 $usuario = new Usuario();
 
-$usuario->loadbyId(12);
+$usuario->loadbyId(9);
 
-$usuario->update("professor", "123456");
+$usuario->delete();
 
 echo $usuario;
+
 
  ?>
